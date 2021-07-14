@@ -7,36 +7,20 @@ console.log('hello world!');
 // 1 == '1'; - truthy same value but not same type
 // 1 === '1' - falsey not the same type even though the value is the same
 
+// Greeting
 let userName = prompt('Hello! What is your name?');
 let alertReturnName = userName.charAt(0).toUpperCase() + userName.slice(1).toLowerCase();
 alert('Welcome to my page, ' + alertReturnName + '! 👋\nThanks for coming by!\nLet\'s play a guessing game.');
 console.log(alertReturnName);
-
 // document.write(userName);
 
-// Ask name. check
-// Say welcome, tell about guessing game. check
-// Ask 5 y/n questions.
-// Say if they are right or wrong.
 
-// 1. Do I live in Chicago?
-// 2. Do I have a dog?
-// 3. Is my favorite movie Star Wars?
-// 4. Was I ever a florist?
-// 5. Am I funny?
-
-// Tell them how many questions they answered correctly
-
-// problem! I want to allow different letter cases and maybe I want to allow y or n
-// we try not to change the user's original input
-// if the person says yes I want to congratulate them, if they say no I will say sorry, if they say anything else I will say I didn't get that
-
-
+// Live Question
 let liveOrig = prompt('Would you guess that I live in Chicago?');
-console.log(liveOrig);
+// console.log(liveOrig);
 
 let live = liveOrig.toLowerCase();
-console.log(live);
+// console.log(live);
 
 if (live === 'yes' || live === 'y') {
   alert('Wrong, but I used to! I actually live in Seattle now.');
@@ -47,12 +31,12 @@ if (live === 'yes' || live === 'y') {
 }
 
 
-
+// Dog Question
 let dogOrig = prompt('Do I have a dog?');
-console.log(dogOrig);
+// console.log(dogOrig);
 
 let dog = dogOrig.toLowerCase();
-console.log(dog);
+// console.log(dog);
 
 if (dog === 'yes' || dog === 'y') {
   alert('Incorrect. I am a cat dad. But maybe in the future?');
@@ -63,12 +47,12 @@ if (dog === 'yes' || dog === 'y') {
 }
 
 
-
+// Movie Question
 let movieOrig = prompt('Is my favorite movie Star Wars?');
-console.log(movieOrig);
+// console.log(movieOrig);
 
 let movie = movieOrig.toLowerCase();
-console.log(movie);
+// console.log(movie);
 
 if (movie === 'yes' || movie === 'y') {
   alert('Nope, it\'s actually The Matrix, and Blade Runner is a close second. Don\'t hate!');
@@ -79,12 +63,12 @@ if (movie === 'yes' || movie === 'y') {
 }
 
 
-
+// Florist Question
 let floristOrig = prompt('Was I ever a florist?');
-console.log(floristOrig);
+// console.log(floristOrig);
 
 let florist = floristOrig.toLowerCase();
-console.log(florist);
+// console.log(florist);
 
 if (florist === 'yes' || florist === 'y') {
   alert('Correct! Fun random fact, I worked as a floral designer for a while way back in my early twenties.');
@@ -95,12 +79,12 @@ if (florist === 'yes' || florist === 'y') {
 }
 
 
-
+// Funny Question
 let funnyOrig = prompt('Am I funny?');
-console.log(funnyOrig);
+// console.log(funnyOrig);
 
 let funny = funnyOrig.toLowerCase();
-console.log(funny);
+// console.log(funny);
 
 if (funny === 'yes' || funny === 'y') {
   alert('Why thank you, I am quite flattered that you think so.');
@@ -111,13 +95,14 @@ if (funny === 'yes' || funny === 'y') {
 }
 
 
-
+// Thanks for playing.
 alert('Thanks for playing, ' + alertReturnName + '! \nHope to see you again soon!');
-console.log(alertReturnName);
+// console.log(alertReturnName);
 
 
 
-// lets make a switch statement for lots of options
+// switch statement for many options
+
 // let funLevel = prompt('scale of 1-3, how fun?');
 // console.log(typeof funLevel);
 
