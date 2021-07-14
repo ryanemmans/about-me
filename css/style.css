@@ -1,0 +1,85 @@
+body {
+  /* every element within the body */
+  box-sizing: border-box;
+  background-color: #262626;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #d2d2d2;
+  line-height: 1.5em;
+}
+
+header, footer {
+  background-color: #333333;
+  border: 1px solid #898989;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 0px 20px;
+}
+
+main {
+  background-color: #333333;
+  border: 1px solid #898989;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+h2 {
+  font-size: x-large;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h3 {
+  font-size: large;
+  margin: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+img {
+  width: 92%;
+  border-radius: 10px;
+  margin: 4%;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  margin: 20px;
+}
+
+a {
+  color: rgb(94, 169, 235);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4b4b4b;
+  text-decoration: none;
+  -webkit-transition: color 1s ease-out; -moz-transition: color 1s ease-out; transition: color 1s ease-out;
+}
+
+/* ol {
+  list-style: decimal;
+  list-style-position: inside;
+} */
