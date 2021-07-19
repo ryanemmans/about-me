@@ -2,11 +2,6 @@
 
 console.log('hello world!');
 
-// ask a few questions and use if statements (conditional statements) or switch statements to reply with a unique alert;
-
-// 1 == '1'; - truthy same value but not same type
-// 1 === '1' - falsey not the same type even though the value is the same
-
 // Greeting
 let userName = prompt('Hello! What is your name?');
 while (userName === '' || userName === null) {
@@ -164,10 +159,9 @@ function movieFunc() {
     // prompt user for guess
     let userMovieGuess = prompt('Do you think you could guess one of my favorite movies?\nYou have ' + guesses + ' attempts left.');
     console.log('Your answer: ' + userMovieGuess);
-    let userGuessLower = userMovieGuess.toLowerCase();
     // check for correct answers
     for (let i = 0; i < movieArray.length; i++) {
-      if (userGuessLower === movieArray[i]) {
+      if (userMovieGuess === movieArray[i]) {
         alert('Wow, you got one!');
         correctMovie = true; //flag
         score++;
@@ -198,32 +192,3 @@ movieFunc();
 alert('Thanks for playing, ' + alertReturnName + '! 🎉\nYou got ' + score + ' correct answers out of 7!\nHope to see you again soon!');
 console.log(alertReturnName);
 
-
-
-// switch statement for many options
-
-// let funLevel = prompt('scale of 1-3, how fun?');
-// console.log(typeof funLevel);
-
-// let funLevelNumber = parseInt(funLevel);
-// make default if they don't give us a number
-// let funLevelNumber = Number(funLevel);
-// isNaN()
-
-// debugger;
-// switch (funLevel) {
-//   case '1':
-//     alert('you should try again');
-//     break; // break out of the block here!
-//   case '2':
-//     alert('Should not have had the Turkey Leg!');
-//     break;
-//   case '3':
-//     alert('Awesome, we should go together');
-//     break;
-//   case NaN:
-//     alert('you silly monkey');
-//     break;
-//   default:
-//     alert('Let me help you plan your next trip');
-// }

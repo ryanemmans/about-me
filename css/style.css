@@ -1,93 +1,162 @@
 body {
-  /* every element within the body */
-  box-sizing: border-box;
-  background-color: #262626;
+  background-color: white;
+  width: 74%;
+  margin: 0px auto;
+  display: block;
   font-family: 'PT Sans Narrow', sans-serif;
-  color: #d2d2d2;
-  line-height: 1.5em;
+  font-size: 1.11em;
+  color: #443932;
 }
+/* all font styling goes here*/
 
-header, footer {
-  background-color: #333333;
-  border: 1px solid #898989;
-  border-radius: 10px;
-  margin: 20px;
-  padding: 20px;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer {
-  padding: 0px 20px;
-}
-
-main {
-  background-color: #333333;
-  border: 1px solid #898989;
-  border-radius: 10px;
-  margin: 20px;
-  padding: 20px;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
+header {
+  position: fixed;
+  background-color: #443932;
+  border: 1px solid #443932;
+  width: 74%;
+  height: 80px;
+  vertical-align: middle;
 }
 
 h1 {
-  font-size: xx-large;
+  font-family: arial black;
+  color: #faf9f9;
+  font-size: 3em;
   text-transform: uppercase;
-  letter-spacing: 8px;
   text-align: center;
+  margin: 10px;
+  letter-spacing: -3px;
 }
 
 h2 {
-  font-size: x-large;
-  width: 100%;
+  font-family: arial black;
+  color: #443932;
+  font-size: 1.5em;
+  letter-spacing: -2px;
   text-transform: uppercase;
-  letter-spacing: 3px;
   text-align: center;
+  margin: 20px 0px 25px 0px;
 }
 
 h3 {
-  font-size: large;
-  margin-top: -10px;
-  letter-spacing: 2px;
+  font-family: arial black;
+  color: #443932;
+  font-size: 1.1em;
   text-align: center;
+  margin-top: -20px;
+}
+
+h4 {
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10px;
+}
+
+p {
+  margin: 20px 100px;
+  text-indent: 40px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #895430;
+  text-decoration: none;
+  -webkit-transition: color .5s ease-out; -moz-transition: color .5s ease-out; transition: color .5s ease-out;
+}
+
+main {
+  width: 100%;
+  margin: 79px auto 39px auto;
+  border: 1px #443932 solid;
+  background-color: #faf9f9;
+}
+
+main, footer {
+  display: inline-block;
+  line-height: 1.3em;
 }
 
 img {
   width: 100%;
+  border: 1px solid #443932;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+}
+
+article {
+  /* margin: -20px; */
+  width: 410px;
+  display: inline-block;
+  padding: 20px 20px 30px 20px;
+  background-color: white;
+  box-shadow: 7px 7px #443932;
+  border: 1px solid #443932;
   border-radius: 10px;
 }
 
-p {
-  text-align: justify;
-  font-size: 1.2em;
-  letter-spacing: 1px;
+.left {
+  float: left;
+  margin:50px auto 0px 50px;
+}
+
+.right {
+  float: right;
+  margin: 50px 50px 0px auto;
+}
+
+.column {
+  border-radius: 10px;
+  box-shadow: 7px 7px black;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+ul {
+  list-style: square;
+  list-style-position: inside;
+}
+
+#intro {
+  margin-bottom: -20px;
+}
+
+#bio, #travel {
+  margin: -1px;
+}
+
+#goals, #travel {
+  margin-bottom: 40px;
+}
+
+.travel {
   margin: 20px;
 }
 
-.travelCaption {
-  font-size: .9em;
-  margin: 5px 50px -10px 50px;
+footer {
+  height: 40px;
+  position: fixed;
+  border: 1px solid #443932;
+  bottom: 0px;
+  left: 13%;
+  right: 13%;
+  margin-bottom: 0px;
+  background-color: #443932;
+  width: 74%;
 }
 
-a {
-  color: rgb(94, 169, 235);
-  text-decoration: none;
-}
-
-a:hover {
-  color: #4b4b4b;
-  text-decoration: none;
-  -webkit-transition: color 1s ease-out; -moz-transition: color 1s ease-out; transition: color 1s ease-out;
-}
-
-.list {
-  text-align: left;
-  margin: 40px 0px 0px 20px;
-}
-
-ol, ul {
-  letter-spacing: 1px;
+span {
+  width: 25px;
+  display: inline-block;
 }

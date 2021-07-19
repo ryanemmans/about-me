@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+  background-color: #262626;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #d2d2d2;
+  line-height: 1.5em;
+}
+
+/* all font styling will go here */
+
+a {
+  color: rgb(94, 169, 235);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4b4b4b;
+  text-decoration: none;
+  -webkit-transition: color 1s ease-out; -moz-transition: color 1s ease-out; transition: color 1s ease-out;
+}
+
+header, main, footer {
+  background-color: #333333;
+  border: 1px solid #898989;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer {
+  padding: 0px 20px;
+} */
+
+h1 {
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+h2 {
+  font-size: x-large;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h3 {
+  font-size: large;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  margin: 20px;
+}
+
+.travelCaption {
+  font-size: .9em;
+  margin: 5px 50px -10px 50px;
+}
+
+section {
+  display: block;
+}
+
+article {
+  width: 50%;
+  float: left;
+  display: inline;
+}
+
+/* article:nth-child(1), article:nth-child(2) {
+  margin-right: 5%;
+} */
+
+.list {
+  text-align: left;
+  margin: 40px 0px 0px 20px;
+}
+
+ol, ul {
+  letter-spacing: 1px;
+}
